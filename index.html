@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta charset="UTF-8">
+     <title>The Wee Movie Guide</title>
+     <link rel="stylesheet" type="text/css" href="./main.css">
+     <style>
+        @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One&display=swap');
+     </style>
+     <style>
+        @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+          </style>
+
+     <script type='text/javascript'>
+
+     function changeColor(obj){
+       if (obj.style.color == 'black'){
+         obj.style.color = 'white';
+       } else {
+         obj.style.color = 'black'
+       }
+     }
+
+    </script>
+    
+
+
+ </head>
+ <body>
+   <!--Navigation Bar-->
+    <nav>
+      <div class="logo">
+        <h7><a href="./index.html">TWMG</a></h7>
+      </div>
+      <ul class="nav-links">
+        <li><a href="./comedy.html">Comedy</a></li>
+        <li><a href="./documentary.html">Documentary</a></li>
+        <li><a href="./drama.html">Drama</a></li>
+        <li><a href="./horror.html">Horror</a></li>
+        <li><a href="./scifi.html">Sci-Fi</a></li>
+        <li><a href="./thriller.html">Thriller</a></li>
+      </ul>
+    </nav>
+   <!--Banner-->
+    <div class="banner">
+      <div class="content">
+        <h2><br><br>The Wee Movie Guide</h2>
+        <p>Looking for a movie to watch but the variety of choices is overwhelming?
+        No worries! <br> Here you will find a fine selection of movies and TV shows in your favourite genre!</p>
+      </div>
+    </div>
+   <!--The Guide-->
+    <section class="guide">
+      <div class="content">
+        <img src="https://thumbs.dreamstime.com/t/long-film-strip-2552719.jpg" alt="Website Decoration">
+        <h3>The Guide</h3>
+      </div>
+      <div class="flexContainerC">
+        <div class="flexItem1" style="width: 200px; height: 300 px"> 
+          <a href="./comedy.html"> 
+            <h9 class="heading" onmouseover='changeColor(this)' onmouseout='changeColor(this)'><br><br><br><br>COMEDY</h9>
+          </a>
+        </div>
+        <div class="flexItem2" style="width: 200px; height: 300px"> 
+          <a href="./documentary.html">
+            <h10 class="heading" onmouseover='changeColor(this)' onmouseout='changeColor(this)'><br><br><br><br>DOCUMENTARY</h10>
+          </a>
+        </div>
+        <div class="flexItem3" style="width: 200px; height: 300px"> 
+          <a href="./drama.html">
+            <h11 class="heading" onmouseover='changeColor(this)' onmouseout='changeColor(this)'><br><br><br><br>DRAMA</h11>
+          </a>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="flexContainerC" style="transition-delay: 0s;">
+        <div class="flexItem4" style="width: 200px; height: 300px"> 
+          <a href="./horror.html">
+            <h12 class="heading" onmouseover='changeColor(this)' onmouseout='changeColor(this)'><br><br><br><br>HORROR</h12>
+          </a>
+        </div>
+        <div class="flexItem5" style="width: 200px; height: 300px"> 
+          <a href="./scifi.html">
+            <h13 class="heading" onmouseover='changeColor(this)' onmouseout='changeColor(this)'><br><br><br><br>SCIENCE FICTION</h13>
+          </a>
+        </div>
+        <div class="flexItem6" style="width: 200px; height: 300px"> 
+          <a href="./thriller.html">
+            <h14 class="heading" onmouseover='changeColor(this)' onmouseout='changeColor(this)'><br><br><br><br>THRILLER</h14>
+          </a>
+        </div>
+      </div> 
+      <p>
+        <br><br><br>
+        <img src="https://thumbs.dreamstime.com/t/long-film-strip-2552719.jpg" alt="Website Decoration">
+      </p>
+    </section>
+   <!--About-->
+    <section class="about">
+      <div class="contentBx">
+        <h2 class="heading"><br>About Us</h2>
+        <p class="text"><br>We are a small group of students who share a passion and an interest in film and TV series. With the constant release of new shows and new films, we understand it can sometimes become overwhelming when deciding what to watch. For this reason we decided to create this website where we share our favourite movies and series of different genres in order to make it easier for you to chose when you're at home trying to come to a decision.<br><br>We hope you enjoy the selection we have produced. We will continue to update the website with new recommendations, and if you want to send us a recommendation that you think should be on this website, feel free to do so!</p>
+      </div>
+      <div class="writing">
+        <h6>Have Your Say</h6>
+        <div class="form">
+          <div class="inputBx">
+            <input type="text" name="" placeholder="Full Name">
+          </div>
+          <div class="inputBx">
+            <input type="text" name="" placeholder="Email Address">
+          </div>
+          <div class="inputBx">
+            <input type="text" name="" placeholder="Mobile No.">
+          </div>
+          <div class="inputBx">
+            <textarea placeholder="Write your message here"></textarea>
+          </div>
+          <div class="inputBx">
+            <input type="submit" value="Send" disabled>
+          </div>
+        </div>
+      </div>
+    </section>
+   <!--Footer-->
+    <section class="footer">
+      <ul>
+        <h4 class="heading">Contact us:</h4>
+        <p class="text"><br>Email: theweemovieguide@gmail.com <br><br> Phone: +44 7312 121212 <br><br> Address: Old College, South Bridge, Edinburgh, EH8 9YL</p>
+      </ul>
+    </section>
+ </body>   
+</html>
